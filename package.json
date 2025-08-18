@@ -1,0 +1,23 @@
+{
+  "name": "discordjs-bot",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/anduarte3/discordjs-bot#readme",
+  "bugs": {
+    "url": "https://github.com/anduarte3/discordjs-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anduarte3/discordjs-bot.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
+}
