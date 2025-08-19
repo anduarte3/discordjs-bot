@@ -1,9 +1,13 @@
 import 'dotenv/config'
+import fs from 'node:fs';
+import path from 'node:path';
+import { Client, Collection, Events, GatewayIntentBits } from 'discord.js';
 
 const token = process.env.TOKEN;
+const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-function start() {
-	console.log("hello world")
-}
+client.commands = new Collection();
 
-start()
+// Log in to Discord with your client's token
+client.login(token);
+
