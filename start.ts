@@ -7,7 +7,7 @@ import { Client, Collection, Events, GatewayIntentBits, MessageFlags } from 'dis
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const token = process.env.TOKEN;
+const token = process.env.tokenId;
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection();
